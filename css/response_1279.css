@@ -1,0 +1,751 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: -124px;
+    }
+
+    .swiper-button-next
+    {
+        right: -124px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination .links
+    {
+        justify-content: center;
+    }
+
+    .pagination .links > * + *
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .block_head .title
+    {
+        line-height: calc(100% + 12px);
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .text_block > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .text_block * + h2
+    {
+        line-height: calc(100% + 12px);
+
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 80px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        padding: 100px 0;
+    }
+
+
+    .services .block_title
+    {
+        font-size: 60px;
+
+        margin-bottom: 60px;
+    }
+
+
+    .services .service
+    {
+        height: 280px;
+        padding: 23px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 17px;
+    }
+
+
+    .services .service .number
+    {
+        font-size: 180px;
+        line-height: 136px;
+
+        right: 0;
+    }
+
+
+    .services .useful_menu_link
+    {
+        font-size: 17px;
+
+        width: 200px;
+        height: 200px;
+        padding: 24px;
+    }
+
+
+
+    /*-------------------
+        Bottom blocks
+    -------------------*/
+    .bottom_blocks .stocks_slider .swiper-button-next,
+    .bottom_blocks .stocks_slider .swiper-button-prev
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .bottom_blocks .stocks_slider .swiper-button-prev
+    {
+        right: 84px;
+    }
+
+
+    .bottom_blocks .stock
+    {
+        padding: 80px 48px;
+    }
+
+
+    .bottom_blocks .stock
+    {
+        height: 620px;
+    }
+
+
+    .bottom_blocks .stock .data
+    {
+        width: 380px;
+    }
+
+
+    .bottom_blocks .stock .label
+    {
+        font-size: 20px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .bottom_blocks .stock .name
+    {
+        font-size: 40px;
+    }
+
+
+
+    .bottom_blocks .video_link
+    {
+        font-size: 22px;
+
+        height: 300px;
+        padding: 27px;
+    }
+
+
+
+    .bottom_blocks .contacts
+    {
+        height: 300px;
+        padding: 27px;
+    }
+
+
+    .bottom_blocks .contacts .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .bottom_blocks .contacts .phone
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .title
+    {
+        font-size: 36px;
+    }
+
+
+    .partners .item
+    {
+        height: 180px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: calc(50% - 52px);
+        padding: 39px 39px 59px;
+    }
+
+
+    .contacts_info .feedback
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .contacts_info .map
+    {
+        margin-top: 68px;
+    }
+
+
+
+    /*------------
+        Stocks
+    ------------*/
+    .stocks .stock .date
+    {
+        font-size: 13px;
+
+        top: 12px;
+        right: 12px;
+
+        padding: 4px 8px;
+    }
+
+
+    .stocks .stock .name
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+
+
+    /*----------------
+        Stock info
+    ----------------*/
+    .stock_info .head
+    {
+        min-height: 320px;
+        margin-bottom: 40px;
+        padding: 32px 60px;
+    }
+
+
+    .stock_info .head .title
+    {
+        line-height: calc(100% + 12px);
+
+        width: 452px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery
+    {
+        padding: 80px 0 120px;
+    }
+
+
+    .photo_gallery .bg1
+    {
+        top: -200px;
+
+        width: 332px;
+        height: 431px;
+        margin-left: -640px;
+    }
+
+
+    .photo_gallery .block_title
+    {
+        font-size: 64px;
+
+        margin-bottom: 60px;
+    }
+
+
+    .photo_gallery .swiper
+    {
+        width: 640px;
+    }
+
+
+    .photo_gallery .item,
+    .photo_gallery .item img
+    {
+        border-radius: 40px;
+    }
+
+
+
+    /*------------
+        Stocks
+    ------------*/
+    .stocks .swiper-button-next,
+    .stocks .swiper-button-prev
+    {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 36px;
+    }
+
+    .stocks .swiper-button-prev
+    {
+        right: 72px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head
+    {
+        margin-bottom: 100px;
+        padding: 60px 0;
+    }
+
+
+    .service_head .title
+    {
+        font-size: 80px;
+    }
+
+
+    .service_head .img
+    {
+        bottom: -92px;
+        left: 64px;
+
+        width: 151px;
+        height: 220px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .service_info .data
+    {
+        width: calc(100% - 483px);
+        padding-top: 52px;
+    }
+
+
+    .service_info .text_block > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .service_info .image
+    {
+        margin-right: 0;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .block_title
+    {
+        font-size: 80px;
+
+        margin-bottom: 60px;
+    }
+
+
+    .advantages .item
+    {
+        width: 680px;
+    }
+
+
+    .advantages .item .number
+    {
+        width: 120px;
+        height: 120px;
+    }
+
+    .advantages .item .number + *
+    {
+        width: calc(100% - 120px);
+        padding-top: 18px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 28px;
+
+        padding-bottom: 15px;
+    }
+
+    .advantages .item .name:before
+    {
+        bottom: -5px;
+        left: 256px;
+
+        height: 32px;
+    }
+
+
+    .advantages .item .desc
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        width: 320px;
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Certs head
+    ----------------*/
+    .certs_head
+    {
+        padding: 120px 0 52px;
+    }
+
+
+    .certs_head .title
+    {
+        font-size: 80px;
+    }
+
+
+
+    /*----------------
+        Certs info
+    ----------------*/
+    .certs_info
+    {
+        margin-bottom: 160px;
+    }
+
+
+    .certs_info .title
+    {
+        font-size: 40px;
+
+        width: 592px;
+        margin-bottom: 60px;
+    }
+
+
+    .certs_info .data
+    {
+        width: 440px;
+    }
+
+
+    .certs_info .text_block > *
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .certs_info .data .title
+    {
+        margin-top: 60px;
+    }
+
+
+    .certs_info .image
+    {
+        width: 500px;
+        height: 680px;
+    }
+
+
+    .certs_info .image .img1
+    {
+        width: 440px;
+        height: 574px;
+    }
+
+
+    .certs_info .image .img2
+    {
+        width: 400px;
+        height: 293px;
+    }
+
+
+    .certs_info .image .bg2
+    {
+        bottom: -120px;
+        left: 60px;
+
+        width: 224px;
+        height: 224px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 100px;
+    }
+
+    .about_info.no_bg
+    {
+        margin-bottom: 140px;
+        padding-top: 100px;
+    }
+
+
+    .about_info .data
+    {
+        width: 412px;
+    }
+
+
+    .about_info .title
+    {
+        font-size: 100px;
+
+        margin-bottom: 48px;
+    }
+
+
+    .about_info .link a
+    {
+        font-size: 13px;
+
+        width: 120px;
+        height: 120px;
+        padding: 16px 20px;
+
+        border-radius: 20px;
+    }
+
+
+    .about_info .image
+    {
+        width: 460px;
+        height: 642px;
+        margin-right: 0;
+    }
+
+
+    .about_info .image .img1
+    {
+        width: 460px;
+        height: 642px;
+
+        border-radius: 60px;
+    }
+
+
+    .about_info .image .bg1
+    {
+        bottom: -140px;
+        left: -100px;
+
+        width: 440px;
+        height: 362px;
+    }
+
+
+    .about_info .image .bg2
+    {
+        right: -80px;
+        bottom: -140px;
+
+        width: 420px;
+        height: 266px;
+    }
+
+
+    .about_info .bg
+    {
+        top: 160px;
+
+        width: 1000px;
+        height: 901px;
+    }
+
+
+    .about_info .scroll_down
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Files
+    -----------*/
+    .files
+    {
+        padding: 120px 0 100px;
+    }
+
+
+    .files .block_title
+    {
+        font-size: 60px;
+
+        margin-bottom: 60px;
+    }
+
+
+    .files .swiper-slide
+    {
+        width: 280px;
+    }
+
+
+    .files .swiper-button-next,
+    .files .swiper-button-prev
+    {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+
+    .files .swiper-button-prev
+    {
+        right: 72px;
+    }
+
+
+    .files .file
+    {
+        height: 340px;
+        padding: 31px;
+    }
+
+
+    .files .file .btn
+    {
+        right: 32px;
+        bottom: -22px;
+
+        width: 44px;
+        height: 44px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo
+    {
+        margin-bottom: 48px;
+    }
+
+
+    footer .phone
+    {
+        margin-left: 80px;
+    }
+}

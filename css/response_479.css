@@ -1,0 +1,538 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 160px;
+    }
+
+
+    header .callback .mini_modal
+    {
+        padding: 140px 24px 24px;
+    }
+
+
+    header .callback .title
+    {
+        font-size: 26px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        height: 550px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 48px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        padding: 60px 0;
+    }
+
+
+    .services .block_title
+    {
+        font-size: 36px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .services .row
+    {
+        margin-left: 0;
+    }
+
+    .services .row > *,
+    .services .row > *:nth-child(10)
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .services .service
+    {
+        height: 220px;
+    }
+
+    .services .service .name
+    {
+        font-size: 15px;
+    }
+
+
+    .services .service .number
+    {
+        right: 16px;
+    }
+
+
+
+    .services .useful_menu_link
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-------------------
+        Bottom blocks
+    -------------------*/
+    .bottom_blocks .stock
+    {
+        height: 320px;
+    }
+
+
+    .bottom_blocks .stock .label
+    {
+        font-size: 17px;
+    }
+
+
+    .bottom_blocks .stock .name
+    {
+        font-size: 28px;
+    }
+
+
+    .bottom_blocks .video_link
+    {
+        font-size: 20px;
+    }
+
+
+    .bottom_blocks .contacts .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .title
+    {
+        font-size: 28px;
+    }
+
+
+    .partners .item
+    {
+        height: 120px;
+    }
+
+
+
+    /*----------------
+        Stock info
+    ----------------*/
+    .stock_info .head
+    {
+        padding: 16px 24px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .block_title
+    {
+        font-size: 40px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .photo_gallery .swiper
+    {
+        width: 300px;
+    }
+
+
+
+    /*------------
+        Stocks
+    ------------*/
+    .stocks .swiper-slide
+    {
+        width: 300px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head
+    {
+        height: 550px;
+        margin-bottom: 60px;
+        padding-top: 120px;
+    }
+
+
+    .service_head .title
+    {
+        font-size: 40px;
+    }
+
+
+    .service_head .img
+    {
+        bottom: -60px;
+        left: 24px;
+
+        width: 96px;
+        height: 140px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .service_info .image
+    {
+        width: 300px;
+        height: 468px;
+        margin-top: 40px;
+    }
+
+    .service_info .image .img1
+    {
+        width: 300px;
+        height: 428px;
+
+        border-radius: 40px;
+    }
+
+    .service_info .image .img2
+    {
+        right: 40px;
+
+        width: 124px;
+        height: 180px;
+    }
+
+    .service_info .image .bg1
+    {
+        width: 389px;
+        height: 320px;
+    }
+
+
+
+    /*------------
+        video
+    ------------*/
+    .video .play_btn .icon
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    .video .play_btn .icon:before
+    {
+        top: 8px;
+        left: 8px;
+    }
+
+
+    .video .play_btn .icon svg
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .block_title
+    {
+        font-size: 40px;
+    }
+
+
+    .advantages .item .number
+    {
+        width: 76px;
+        height: 76px;
+    }
+
+    .advantages .item .number + *
+    {
+        width: calc(100% - 76px);
+        padding-top: 8px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 18px;
+
+        padding-bottom: 11px;
+        padding-left: 16px;
+    }
+
+    .advantages .item .name:before
+    {
+        left: 160px;
+    }
+
+
+    .advantages .item .desc
+    {
+        font-size: 13px;
+        line-height: 21px;
+
+        padding-left: 16px;
+    }
+
+
+
+    /*----------------
+        Certs head
+    ----------------*/
+    .certs_head
+    {
+        height: 550px;
+        padding: 120px 0 40px;
+    }
+
+
+    .certs_head .title
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*----------------
+        Certs info
+    ----------------*/
+    .certs_info
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .certs_info .title
+    {
+        font-size: 26px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .certs_info .data .title
+    {
+        margin-top: 32px;
+    }
+
+
+    .certs_info .image
+    {
+        width: 327px;
+        height: 452px;
+        margin-top: 32px;
+    }
+
+
+    .certs_info .image .img1
+    {
+        width: 280px;
+        height: 365px;
+    }
+
+
+    .certs_info .image .img2
+    {
+        width: 260px;
+        height: 190px;
+    }
+
+
+    .certs_info .image .bg1
+    {
+        bottom: -124px;
+        left: 40px;
+
+        width: 320px;
+        height: 263px;
+    }
+
+
+    .certs_info .image .bg2
+    {
+        bottom: -80px;
+        left: 24px;
+
+        width: 140px;
+        height: 140px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 80px;
+    }
+
+    .about_info.no_bg
+    {
+        margin-bottom: 80px;
+        padding-top: 60px;
+    }
+
+
+    .about_info .title
+    {
+        font-size: 68px;
+    }
+
+
+    .about_info .image
+    {
+        width: 327px;
+        height: 457px;
+    }
+
+
+    .about_info .image .img1
+    {
+        width: 327px;
+        height: 457px;
+    }
+
+
+    .about_info .image .bg1
+    {
+        bottom: -120px;
+        left: -72px;
+
+        width: 300px;
+        height: 247px;
+    }
+
+
+    .about_info .image .bg2
+    {
+        right: -52px;
+        bottom: -120px;
+
+        width: 324px;
+        height: 205px;
+    }
+
+
+    .about_info .bg,
+    .about_info.no_bg .bg
+    {
+        right: -80px;
+        bottom: -120px;
+
+        width: 680px;
+        height: 612px;
+    }
+
+
+
+    /*-----------
+        Files
+    -----------*/
+    .files
+    {
+        padding: 68px 0 60px;
+    }
+
+
+    .files .block_title
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .socials
+    {
+        position: relative;
+        bottom: 0;
+
+        width: 100%;
+        margin-top: 16px;
+
+        justify-content: center;
+    }
+
+
+    footer .privacy_policy_link
+    {
+        margin-top: 16px;
+    }
+}
