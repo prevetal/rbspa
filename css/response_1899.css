@@ -32,6 +32,37 @@
 
 
 
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 31px 131px 31px 39px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 26px;
+    }
+
+
+    .accordion_item .head .arr
+    {
+        right: 28px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 0 31px 31px;
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -817,6 +848,62 @@
     {
         height: 400px;
         padding: 59px 39px 67px 39px;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices > .head
+    {
+        margin-bottom: 60px;
+        padding: 120px 0;
+    }
+
+
+    .prices > .head .page_title
+    {
+        font-size: 112px;
+    }
+
+
+    .prices > .head .bg
+    {
+        top: 12px;
+        left: 0;
+
+        width: 460px;
+        height: 414px;
+    }
+
+
+
+    .prices .section > .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 40px;
+    }
+
+
+
+    .prices .items .item
+    {
+        font-size: 26px;
+
+        padding: 31px 31px 31px 39px;
+    }
+
+
+    .prices .data .items .item
+    {
+        padding: 24px 0 0 0;
+    }
+
+    .prices .data .items .item + .item
+    {
+        margin-top: 24px;
     }
 
 

@@ -11,6 +11,37 @@
 
 
 
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 15px 59px 15px 15px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 15px;
+    }
+
+
+    .accordion_item .head .arr
+    {
+        right: 12px;
+
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 0 15px 15px;
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -512,6 +543,67 @@
     .files .block_title
     {
         font-size: 32px;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices > .head
+    {
+        margin-bottom: 40px;
+        padding: 48px 0;
+    }
+
+
+    .prices > .head .page_title
+    {
+        font-size: 48px;
+    }
+
+
+    .prices > .head .bg
+    {
+        left: 0;
+
+        width: 200px;
+        height: 180px;
+    }
+
+
+
+    .prices .section + .section
+    {
+        margin-top: 48px;
+    }
+
+
+    .prices .section > .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    .prices .items .item
+    {
+        font-size: 15px;
+
+        padding: 15px;
+
+        text-transform: none;
+    }
+
+
+    .prices .data .items .item
+    {
+        padding: 15px 0 0 0;
+    }
+
+    .prices .data .items .item + .item
+    {
+        margin-top: 16px;
     }
 
 

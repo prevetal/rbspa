@@ -36,6 +36,54 @@
 
 
 
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item
+    {
+        border-radius: 12px;
+    }
+
+    .accordion_item + .accordion_item
+    {
+        margin-top: 12px;
+    }
+
+
+    .accordion_item .head
+    {
+        padding: 19px 79px 19px 19px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 16px;
+    }
+
+
+    .accordion_item .head .arr
+    {
+        right: 16px;
+
+        width: 36px;
+        height: 36px;
+    }
+
+    .accordion_item .head .arr .icon
+    {
+        width: 14px;
+        height: 8px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 0 19px 19px;
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -809,6 +857,79 @@
     {
         height: 300px;
         padding: 23px;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices > .head
+    {
+        margin-bottom: 48px;
+        padding: 60px 0;
+    }
+
+
+    .prices > .head .page_title
+    {
+        font-size: 60px;
+    }
+
+
+    .prices > .head .bg
+    {
+        left: 0;
+
+        width: 248px;
+        height: 224px;
+    }
+
+
+
+    .prices .section + .section
+    {
+        margin-top: 60px;
+    }
+
+
+    .prices .section > .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    .prices .items .item
+    {
+        font-size: 16px;
+
+        padding: 19px;
+
+        border-radius: 12px;
+    }
+
+    .prices .items .item + .item
+    {
+        margin-top: 12px;
+    }
+
+
+    .prices .data .items .item
+    {
+        padding: 19px 0 0 0;
+    }
+
+    .prices .data .items .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .prices .load_more
+    {
+        margin-top: 40px;
     }
 
 

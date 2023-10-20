@@ -24,6 +24,16 @@
 
 
 
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 20px;
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -573,6 +583,45 @@
 
         width: 40px;
         height: 40px;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices > .head
+    {
+        padding: 68px 0;
+    }
+
+
+    .prices > .head .page_title
+    {
+        font-size: 68px;
+    }
+
+
+    .prices > .head .bg
+    {
+        left: -20px;
+
+        width: 300px;
+        height: 270px;
+    }
+
+
+
+    .prices .section > .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    .prices .items .item
+    {
+        font-size: 20px;
     }
 
 
